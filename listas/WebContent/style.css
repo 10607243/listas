@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+	background-color: #babdb6;
+}
+
+.l1 li {
+	text-align: center;
+	font-color: #5c3566;
+	background-color: #4e9a06;
+	border: 5px dashed #5c3566;
+	color: #48314c;
+	list-style-type: none;
+	float: left;
+	padding: 8px 8px;
+	margin-right: 16px;
+	width: 160px;
+	margin-bottom: 25px
+}
+
+.l1 {
+	text-align: center;
+}
+
+.l2 li {
+	text-align: center;
+	font-color: #5c3566;
+	background-color: white;
+	border: 5px black;
+	color: black;
+	border: black 0.5px solid;
+	list-style-type: none;
+	float: left;
+	padding: 8px 8px;
+	width: 160px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	clear: both;
+	margin-bottom: 0.5em;
+	padding-top: 1em;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+.l3 {
+	width: 170px;
+	border: black 1px solid;
+	padding: 9px;
+	text-align: center;
+}
+
+.l3 li {
+	background-color: white;
+	text-align: center;
+	border: black 1px solid;
+	width: 144px;
+	padding: 8px;
+	margin: 8px 8px 8px;
+}
+
+.l4 li {
+	text-align: center;
+	font-color: #5c3566;
+	background-color: white;
+	color: black;
+	list-style-type: none;
+	float: left;
+	padding: 8px 8px;
+	width: 160px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.liwhite {
+	color: blue;
+	background-color: blue;
+}
+
+.l6 li {
+	background-color: white;
+	font-size: 200%;
+	display: inline;
+	border: black2px solid;
+	border-radius: 5px;
+	margin-right: 20px;
+	padding: 10px 10px 10px;
+	text-align: center;
+}
+.l5 {
+	float: left;
+	display: inline;
+}
+
+.li5 {
+	float: left;
+	display: block;
+	padding: 16px;
+}
+@font-face {
+	font-family: 'icomoon';
+	src: url('fonts/icomoon.eot?r34sga');
+	src: url('fonts/icomoon.eot?r34sga#iefix') format('embedded-opentype'),
+		url('fonts/icomoon.ttf?r34sga') format('truetype'),
+		url('fonts/icomoon.woff?r34sga') format('woff'),
+		url('fonts/icomoon.svg?r34sga#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icomoon' !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\e900";
+}
+
+.icon-pencil:before {
+	content: "\e905";
+}
+
+.icon-file-text:before {
+	content: "\e922";
+}
+
+.icon-search:before {
+	content: "\e986";
+}
+
+.icon-switch:before {
+	content: "\e9b6";
+}
+
+.icon-plus:before {
+	content: "\ea0a";
+}
+
+.icon-minus:before {
+	content: "\ea0b";
+}
